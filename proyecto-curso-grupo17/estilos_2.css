@@ -1,0 +1,12 @@
+/* Ejemplo selector universal (de elementos HTML) */
+* {
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+/* Selector de etiqueta */
+h2 {
+    color: yellowgreen;
+    border: 1px solid whitesmoke;
+}
