@@ -154,12 +154,11 @@
     color: rgb(168, 196, 196);
    
 }
- .oferta{
-        
-            font-family: "Freeman", sans-serif;
-            text-align: center;
-            font-weight: 400;
-            font-style: normal;
-            font-size: 60px;
-            color: rgb(150, 38, 38);
-          }
+.oferta{
+    font-family: "Freeman", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: rgb(150, 38, 38);
+}
