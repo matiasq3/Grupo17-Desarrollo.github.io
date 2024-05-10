@@ -162,3 +162,20 @@
     font-size: 60px;
     color: rgb(150, 38, 38);
 }
+
+/* logo flotante*/ 
+    .logo{
+        float:right;
+        padding: 1rem;
+        margin: 1rem;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(140, 40, 40);
+        animation: animacion 2s ease-in-out infinite;
+    }
+
+  @keyframes animacion {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(100px); }
+            100% { transform: translateX(0); }
+          }
