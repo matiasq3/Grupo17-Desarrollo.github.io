@@ -154,3 +154,10 @@
     color: rgb(168, 196, 196);
    
 }
+css
+.oferta {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 200;
+  font-style: normal;
+   color: red;
+}
