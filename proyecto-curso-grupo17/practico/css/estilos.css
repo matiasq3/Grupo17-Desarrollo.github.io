@@ -154,10 +154,12 @@
     color: rgb(168, 196, 196);
    
 }
-css
-.oferta {
-  font-family: "Shadows Into Light", cursive;
-  font-weight: 200;
-  font-style: normal;
-   color: red;
-}
+ .oferta{
+        
+            font-family: "Freeman", sans-serif;
+            text-align: center;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 60px;
+            color: rgb(150, 38, 38);
+          }
