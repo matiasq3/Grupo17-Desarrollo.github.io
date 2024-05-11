@@ -162,8 +162,19 @@
     font-size: 60px;
     color: rgb(150, 38, 38);
 }
+.titform{
+        font-size: 1.5rem;
+        font-family: 'Lucida Sans';
+        color:rgb(49, 5, 118);
+    }
+    .campos{
+        font-size: 1rem;
+        font-family: 'Lucida Sans';
+        color:rgb(49, 5, 118);
+    }
 
-/* logo flotante*/ 
+
+/* logo flotante
     .logo{
         float:right;
         padding: 1rem;
@@ -178,4 +189,36 @@
             0% { transform: translateX(0); }
             50% { transform: translateX(100px); }
             100% { transform: translateX(0); }
-          }
+          }*/
+/*Logo flotente 2*/
+.logo{
+            border: 2px solid black;
+            padding: 1%;
+            border-radius: 5px;
+            margin: 0.5%;
+            width: 6%;    
+            display: flex;
+             
+            position: fixed; 
+            top: 25%; 
+            right: 1%; 
+            font-size: 3rem;
+            z-index: 20;
+    }
+    a {
+        color: rgb(49, 5, 118);
+        font-family: 'Lucida Sans';
+        font-size: large;
+        }
+        
+        
+        /* links no visitados*/
+        a:link {
+        color: rgb(22, 194, 68);
+        }
+        
+        /* links visitados */
+        a:visited {
+        color: rgb(175, 24, 67);
+        }
+
