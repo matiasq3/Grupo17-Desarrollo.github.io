@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Artículos Informáticos</title>
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../practico/img/favicon-96x961.png" type="image/x-icon" />
+    <title>Formularios</title>
 </head>
 <body>
     <header>
         <h1 class="tit">Formulario de contacto</h1>
+        <img  class="logo" src="../img/logo.png" alt="logo">
+   
     </header>
     <main>
-        <section>
-            <ul>
-                <li><a href="../index.html"></a>INICIO</li>
-                <li><a href="../sitio/productos.html"></a>PRODUCTOS</li>
-                <li><a href="../sitio/servicios.html">SERVICIOS</a></li>
-            </ul>
-        </section>
+        <div id="button">
         
-
+            <ul>
+                <li><a href="/practico/index.html">INICIO</a></li> 
+                <li><a href="/practico/sitio/empresa.html">EMPRESA</a></li>
+                <li><a href="/practico/sitio/productos.html">PRODUCTOS</a></li>
+                <li><a href="/practico/sitio/servicios.html">SERVICIOS</a></li>
+            
+            
+        </div>
         <form action="./respuesta.html">
             <fieldset>
-                <legend>Datos personales </legend>
-                <label for="campo1">Nombre y apellido:</label>
+                <legend class="titform">Datos personales </legend>
+                <label class="campos" for="campo1">Nombre y apellido:</label>
                 <input name="campo1" type="text" size="60" required="True" placeholder="Escriba su nombre y apellido">
                 <br>
                 <br>
-                                <label for="campo2">Teléfono de contacto:</label>
+                <label class="campos" for="campo2">Teléfono de contacto:</label>
                 <input name="campo2" type="text" size="60" required="True" placeholder="Escriba su nº de teléfono">
                 <br>
                 <br>
-                <label for="campo3">Elija una opción para recibir información detallada</label>
+                <label class="campos" for="campo3">Elija una opción para recibir información detallada</label>
                 <br>
                 <br>
                 <input type="checkbox" name="opcion1"><label for="opcion1">Productos</label><br>
@@ -40,16 +43,16 @@
                 <input type="checkbox" name="opcion3"><label for="opcion3">Ofertas</label><br>
                 <input type="checkbox" name="opcion4"><label for="opcion4">Combos</label><br>
             </fieldset>
+            <br>
+            <br>
 
        
             <fieldset>
-                <legend>ACCIÓN DEL FORMULARIO</legend>
+                <legend class="titform">Confirme sus Datos</legend>
                 <input type="submit" value="Enviar datos">
             </fieldset>
 
         </form>
-        
-      
     </main>
 </body>
 </html>

@@ -154,15 +154,17 @@
     color: rgb(168, 196, 196);
    
 }
-.oferta{
-    font-family: "Freeman", sans-serif;
-    text-align: center;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    color: rgb(150, 38, 38);
-}
-.titform{
+
+      .oferta{
+        
+            font-family: "Freeman", sans-serif;
+            text-align: center;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 60px;
+            color: rgb(150, 38, 38);
+          }
+    .titform{
         font-size: 1.5rem;
         font-family: 'Lucida Sans';
         color:rgb(49, 5, 118);
@@ -173,25 +175,28 @@
         color:rgb(49, 5, 118);
     }
 
-
-/* logo flotante
+    /* logo flotante 
     .logo{
+        
+        position: relative;;
         float:right;
         padding: 1rem;
         margin: 1rem;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         background-color: rgb(140, 40, 40);
-        animation: animacion 2s ease-in-out infinite;
+        animation: animacion 3s ease-in-out infinite;
     }
 
   @keyframes animacion {
-            0% { transform: translateX(0); }
-            50% { transform: translateX(100px); }
-            100% { transform: translateX(0); }
+    
+            0% { transform: translateY(0); }
+            50% { transform: translatey(100px); }
+            100% { transform: translateY(0); }
           }*/
-/*Logo flotente 2*/
-.logo{
+
+    /* logo flotante 2*/      
+    .logo{
             border: 2px solid black;
             padding: 1%;
             border-radius: 5px;
@@ -200,7 +205,7 @@
             display: flex;
              
             position: fixed; 
-            top: 25%; 
+            top: 35%; 
             right: 1%; 
             font-size: 3rem;
             z-index: 20;
@@ -221,4 +226,29 @@
         a:visited {
         color: rgb(175, 24, 67);
         }
-
+    /* tamaño dde las imagenes*/
+    .derecha{
+        width: 25%;
+    }
+    /* menu con estilo*/
+    #button {
+        padding: 1px;
+        
+        }
+    #button li {
+        display: inline;
+     }
+    #button li a {
+        font-family: 'Lucida Sans';
+        font-size:14px;
+        text-decoration: none;
+        float:left;
+        padding: 10px;
+        background-color: #0f3f67;
+        color: #fff;
+        }
+    #button li a:hover {
+        background-color: #2586d7;
+        margin-top:-2px;
+        padding-bottom:12px;
+        }
