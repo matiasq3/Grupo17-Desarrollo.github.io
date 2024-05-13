@@ -50,6 +50,22 @@ h1 {
     animation: slideIn 1s ease-in-out;
         }
 /* Estilos para los productos */
+
+.oferta{
+    font-size: 40px;
+    color: rgb(150, 38, 38);
+    font-family: "Freeman", sans-serif;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
 .productos {
     background-color: #fff;
     border: 1px solid #ddd;
