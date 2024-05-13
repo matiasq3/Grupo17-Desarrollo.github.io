@@ -17,19 +17,22 @@
         <div id="button">
         
             <ul>
-                <li><a href="/practico/index.html">INICIO</a></li> 
-                <li><a href="/practico/sitio/empresa.html">EMPRESA</a></li>
-                <li><a href="/practico/sitio/productos.html">PRODUCTOS</a></li>
-                <li><a href="/practico/sitio/servicios.html">SERVICIOS</a></li>
+                <li><a href="/index.html">INICIO</a></li> 
+                <li><a href="/sitio/empresa.html">EMPRESA</a></li>
+                <li><a href="/sitio/productos.html">PRODUCTOS</a></li>
+                <li><a href="/sitio/servicios.html">SERVICIOS</a></li>
             
             
         </div>
+        
         <form action="./respuesta.html">
             <fieldset>
                 <legend class="titform">Datos personales </legend>
-                <label class="campos" for="campo1">Nombre y apellido:</label>
-                <input name="campo1" type="text" size="60" required="True" placeholder="Escriba su nombre y apellido">
+                <label class="campos" for="campo1">Nombre:</label>
+                <input name="campo1" type="text" size="60" required="True" placeholder="Escriba su nombre">
                 <br>
+                <label class="campos" for="campo5">Apellido:</label>
+                <input name="campo5" type="text" size="60" required="True" placeholder="Escriba su apellido">
                 <br>
                 <label class="campos" for="campo2">Teléfono de contacto:</label>
                 <input name="campo2" type="text" size="60" required="True" placeholder="Escriba su nº de teléfono">
@@ -42,17 +45,42 @@
                 <input type="checkbox" name="opcion2"><label for="opcion2">Servicios de reparación</label><br>
                 <input type="checkbox" name="opcion3"><label for="opcion3">Ofertas</label><br>
                 <input type="checkbox" name="opcion4"><label for="opcion4">Combos</label><br>
+                <br>
+                <br>
+                <label class="campos" for="campo4">¿Cómo  nos conoció?</label>
+                <br>
+                <br>
+                <input type="checkbox" name="opcion1"><label for="opcion1">Recomendación de un conocido</label><br>
+                <input type="checkbox" name="opcion2"><label for="opcion2">Publicidad en las redes</label><br>
+                <input type="checkbox" name="opcion3"><label for="opcion3">Otros</label><br>
+              
+                
             </fieldset>
+            
             <br>
             <br>
-
+            
        
             <fieldset>
                 <legend class="titform">Confirme sus Datos</legend>
                 <input type="submit" value="Enviar datos">
             </fieldset>
+            <div class="orden">
+                
+                    <p><img class="flotar" src="/img/ig.jpg">
+                    <h6 class="redes">@ti-articulosinformaticos</h5></p>
+                                  
+                    <p><img  class="flotar"src="/img/face.jpg">
+                    <h6 class="redes">ti-articulosinformaticos</h6></p>
+                    
+                                     
+                    <p><img class="flotar"src="/img/x.jpg">
+                    <h6 class="redes">@ti-informatica</h6></p>
+            </div>        
+                
 
         </form>
+        
     </main>
 </body>
 </html>
