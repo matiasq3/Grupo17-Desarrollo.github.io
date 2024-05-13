@@ -52,13 +52,13 @@ h1 {
 /* Estilos para los productos */
 
 .oferta{
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(150, 38, 38);
     font-family: "Freeman", sans-serif;
     text-align: center;
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 40px;
+    padding: 15px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
