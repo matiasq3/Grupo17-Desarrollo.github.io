@@ -252,3 +252,19 @@
         margin-top:-2px;
         padding-bottom:12px;
         }
+/* logos y texto redes*/
+    .flotar{
+        float:left;
+        max-width: 2rem;
+        margin: 3px;
+        
+        }
+    .redes{
+        display:flex;
+        margin-left: 3px;
+    }
+    .orden{
+       display: block;
+       padding-left: 15%;
+       padding-bottom: 3px;
+    }
