@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Python",
+        "logo": "./img/piton.png",
+        "alt": "Logo de Python",
+        "interpretado": 1
+    },
+    {
+        "id": 2,
+        "nombre": "JavaScript",
+        "logo": "./img/js.png",
+        "alt": "Logo de JavaScript",
+        "interpretado": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Java",
+        "logo": "./img/java.png",
+        "alt": "Logo de Java",
+        "interpretado": 0
+    }
+]
