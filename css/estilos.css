@@ -1,151 +1,186 @@
-   /* Estilos generales */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        /* Encabezado */
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-        footer {
-            background-color: #333333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-        h1 {
-            font-size: 2rem;
-        }
-        /* Animación de desplazamiento */
-        @keyframes slideIn {
-            0% {
-                transform: translateY(-100%);
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.container {
+     max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#menuprincipal {
+    background-color: #828080;
+    color: #0a0909;
+    text-align: center;
+    padding: 2px 5px;
+        
+}
+
+footer {
+    background-color: #828080;
+    color: #0a0909;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/* Animación de desplazamiento */
+    @keyframes slideIn {
+        0% {
+            transform: translateY(-100%);
             }
-            100% {
-                transform: translateY(0);
+        100%{
+            transform: translateY(0);
             }
+}
+.lista-productos {
+    animation: slideIn 1s ease-in-out;
         }
-        .lista-productos {
-            animation: slideIn 1s ease-in-out;
-        }
-        /* Estilos para los productos */
-        .productos {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .product h2 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-        }
-        .product p {
-            font-size: 1rem;
-            color: #666;
-        }
-        ul{
-            display: flex;
-            justify-content: space-around;
-            font-weight: bold;
-            color: rgb(4, 4, 4);
-            font-size: large;
-        }
-        li{
-            display: flex;
-            justify-content: space-around;
-            font-weight: bold;
-            color: rgb(4, 4, 4);
-            font-size: large;
-        }
-        .orden{
-            text-align: right; 
-            padding-right: 10px;
-            font-weight: bold;
-            font-size: x-large;
-        }
+/* Estilos para los productos */
+
+.oferta{
+    font-size: 50px;
+    color: rgb(150, 38, 38);
+    font-family: "Freeman", sans-serif;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
 
 
 
-        /* Estilos para pantallas pequeñas (celulares) */
+.productos {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+        
+.product h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+        
+.product p {
+    font-size: 1rem;
+    color: #666;
+}
+        
+ul{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: rgb(4, 4, 4);
+    font-size: large;
+        
+}
+        
+li{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: rgb(4, 4, 4);
+    font-size: large;
+}
+
+.orden{
+    text-align: right; 
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+
+/* Estilos para pantallas pequeñas (celulares) */
 @media (max-width: 600px) {
     
-    main {
-        background-color: rgb(138, 186, 242);
-    }
+main {
+    background-color: rgb(138, 186, 242);
+}
 
-    article {
-        width: 100%;
-    }
+article {
+    width: 100%;
+}
     
-    /*section {
-        display: flex;
-    }*/
+/*section {
+    display: flex;
+}*/
 
-    img {
-        display:flex;
-    }
+img {
+    display:flex;
+}
 
-    body {
-        font-size: medium;
-    } 
+body {
+    font-size: medium;
+} 
 }
   
-  /* Estilos para tablets */
-  @media (min-width: 601px) and (max-width: 1023px) {
+/* Estilos para tablets */
+@media (min-width: 601px) and (max-width: 1023px) {
     main {
-        background-color: rgb(199, 216, 247);
-    }
+    background-color: rgb(199, 216, 247);
+}
 
-    article {
-        width: 100%;
-    }
+article {
+    width: 100%;
+}
     
-    /*section {
-        display: flex;
-    }*/
+/*section {
+    display: flex;
+}*/
 
-    img {
-        display: flex;
+img {
+    display: flex;
         
-    }
+}
 
-    body {
-        font-size: medium;
-    }
-  }
+body {
+    font-size: medium;
+}
+}
   
-  /* Estilos para pantallas grandes (computadoras) */
-  @media (min-width: 1024px) {
+/* Estilos para pantallas grandes (computadoras) */
+@media (min-width: 1024px) {
     main {
-        background-color: rgb(124, 191, 200);
-    }
+    background-color: rgb(124, 191, 200);
+}
 
-    article {
-        width: 100%;
-    }
+article {
+    width: 100%;
+}
     
-    /*section {
-        display: flex;
-    }*/
+/*section {
+    display: flex;
+}*/
 
-    img {
-        display: flex;
-    }
+img {
+    display: flex;
+}
 
-    body {
-        font-size: medium;
-    }
+body {
+    font-size: medium;
+}
 }
 /*Estilos para el formulario*/
 .tit{
@@ -155,38 +190,38 @@
    
 }
 
-      .oferta{
+.oferta{
         
-            font-family: "Freeman", sans-serif;
-            text-align: center;
-            font-weight: 400;
-            font-style: normal;
-            font-size: 60px;
-            color: rgb(150, 38, 38);
-          }
-    .titform{
-        font-size: 1.5rem;
-        font-family: 'Lucida Sans';
-        color:rgb(49, 5, 118);
-    }
-    .campos{
-        font-size: 1rem;
-        font-family: 'Lucida Sans';
-        color:rgb(49, 5, 118);
-    }
+    font-family: "Freeman", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: rgb(150, 38, 38);
+}
+.titform{
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans';
+    color:rgb(49, 5, 118);
+}
+.campos{
+    font-size: 1rem;
+    font-family: 'Lucida Sans';
+    color:rgb(49, 5, 118);
+}
 
-    /* logo flotante 
+/* logo flotante 
     .logo{
         
-        position: relative;;
-        float:right;
-        padding: 1rem;
-        margin: 1rem;
-        width: 80px;
-        height: 80px;
-        background-color: rgb(140, 40, 40);
-        animation: animacion 3s ease-in-out infinite;
-    }
+    position: relative;;
+    float:right;
+    padding: 1rem;
+    margin: 1rem;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(140, 40, 40);
+    animation: animacion 3s ease-in-out infinite;
+}
 
   @keyframes animacion {
     
@@ -196,75 +231,75 @@
           }*/
 
     /* logo flotante 2*/      
-    .logo{
-            border: 2px solid black;
-            padding: 1%;
-            border-radius: 5px;
-            margin: 0.5%;
-            width: 6%;    
-            display: flex;
+.logo{
+    border: 2px solid black;
+    padding: 1%;
+    border-radius: 5px;
+    margin: 0.5%;
+    width: 6%;    
+    display: flex;
              
-            position: fixed; 
-            top: 35%; 
-            right: 1%; 
-            font-size: 3rem;
-            z-index: 20;
+    position: fixed; 
+    top: 35%; 
+    right: 1%; 
+    font-size: 3rem;
+    z-index: 20;
+}
+a {
+    color: rgb(49, 5, 118);
+    font-family: 'Lucida Sans';
+    font-size: large;
+}
+        
+        
+/* links no visitados*/
+a:link {
+    color: rgb(22, 194, 68);
+}
+        
+/* links visitados */
+a:visited {
+    color: rgb(175, 24, 67);
+}
+/* tamaño dde las imagenes*/
+.derecha{
+    width: 25%;
+}
+/* menu con estilo*/
+#button {
+    padding: 1px;
+        
+}
+#button li {
+    display: inline;
+}
+#button li a {
+    font-family: 'Lucida Sans';
+    font-size:14px;
+    text-decoration: none;
+    float:left;
+    padding: 10px;
+    background-color: #0f3f67;
+    color: #fff;
+}
+#button li a:hover {
+    background-color: #2586d7;
+    margin-top:-2px;
+    padding-bottom:12px;
     }
-    a {
-        color: rgb(49, 5, 118);
-        font-family: 'Lucida Sans';
-        font-size: large;
-        }
-        
-        
-        /* links no visitados*/
-        a:link {
-        color: rgb(22, 194, 68);
-        }
-        
-        /* links visitados */
-        a:visited {
-        color: rgb(175, 24, 67);
-        }
-    /* tamaño dde las imagenes*/
-    .derecha{
-        width: 25%;
-    }
-    /* menu con estilo*/
-    #button {
-        padding: 1px;
-        
-        }
-    #button li {
-        display: inline;
-     }
-    #button li a {
-        font-family: 'Lucida Sans';
-        font-size:14px;
-        text-decoration: none;
-        float:left;
-        padding: 10px;
-        background-color: #0f3f67;
-        color: #fff;
-        }
-    #button li a:hover {
-        background-color: #2586d7;
-        margin-top:-2px;
-        padding-bottom:12px;
-        }
 /* logos y texto redes*/
-    .flotar{
-        float:left;
-        max-width: 2rem;
-        margin: 3px;
+.flotar{
+    float:left;
+    max-width: 2rem;
+    margin: 3px;
         
-        }
-    .redes{
-        display:flex;
-        margin-left: 3px;
-    }
-    .orden{
-       display: block;
-       padding-left: 15%;
-       padding-bottom: 3px;
-    }
+}
+.redes{
+    display:flex;
+    margin-left: 3px;
+}
+.orden{
+    display: block;
+    padding-left: 15%;
+    padding-bottom: 3px;
+}
