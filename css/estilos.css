@@ -27,7 +27,7 @@ header {
 
 #menuprincipal {
     background-color: #828080;
-    color: #0a0909;
+    color: #250303;
     text-align: center;
     padding: 2px 5px;
         
@@ -63,8 +63,8 @@ h1 {
     color: rgb(150, 38, 38);
     font-family: "Freeman", sans-serif;
     text-align: center;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #d2e6fc;
+    border: 1px solid #ddf0fc;
     padding: 15px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
