@@ -6,22 +6,26 @@ body {
     background-color: #f9f9f9;
 }
 .container {
-     max-width: 1200px;
+    
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
-/* Encabezado */
+/* Encabezado Tienda de articulos informaticos*/
 header {
+    display: flex;
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    justify-content: center;
 }
 #button{
     background-color: #535353;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    
 
 }
 
@@ -42,6 +46,7 @@ footer {
 
 h1 {
     font-size: 2rem;
+   
 }
 
 /* Animación de desplazamiento */
