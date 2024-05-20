@@ -14,14 +14,16 @@ img{
 }
 /* FLEXBOX*/
 /*siempre trabaja en una dimension*/
-
-section{
+article{
     display: flex;
-    justify-content: space-around;
-    /*flex-direction: column;*/
-    /*items-align: center;*/
+    justify-content: space-evenly;
+    border: solid, 1px, black;
+    border-radius: 3%;
+    margin: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+    max-width: 95%;
+   
+    
 }
-/*article{
-    width: 35%;
-}*/
 
