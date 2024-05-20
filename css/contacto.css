@@ -2,12 +2,23 @@
     position: relative;
     width: 100px;
     height: 100px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
   }
   
   #Mensaje {
     position: absolute;
-    width: 100%;
+    width: 200%;
     height: 100%;
     box-sizing: border-box;
+  }
+  .parrafo{
+    font-family: Arial;
+    font-size:medium;
+    color:rgb(34, 34, 34);
+    width: 75%;
+    margin: auto;
+  }
+  .alinear{
+    width:75%;
+    margin: auto;
   }
