@@ -16,7 +16,7 @@ body {
 header {
     display: flex;
     height: 70px;
-    background-color: #111010;
+    background-color: #524e4e;
     color: #fff;
     align-items: center;
     padding: 10px 0;
@@ -26,10 +26,11 @@ header {
 /*inicio-empresa-productos-contacto-carrito*/
 #button{
     display: flex;
-    background-color: #df1d1d;
-    color: #fff;
+    background-color: #2e2d2d;
+    color: #d8d6d6;
     text-align: center;
-    padding: 10px 0;
+    align-items: center;
+    padding: 30px;
     justify-content: center;
 
 }
@@ -265,7 +266,7 @@ body {
     z-index: 20;
 }
 a {
-    color: rgb(49, 5, 118);
+    color: rgb(85, 171, 241);
     font-family: 'Lucida Sans';
     font-size: large;
 }
@@ -278,7 +279,7 @@ a:link {
         
 /* links visitados */
 a:visited {
-    color: rgb(175, 24, 67);
+    color: rgb(204, 208, 214);
 }
 /* tamaño dde las imagenes*/
 .derecha{
@@ -286,13 +287,13 @@ a:visited {
 }
 /* menu con estilo*/
 #button {
-    padding: 10px;
+    padding: 30px;
         
 }
 #button li {
     display: inline;
 }
-#button li a {
+#button nav a {
     font-family: 'Lucida Sans';
     font-size:16px;
     text-decoration:none;
@@ -301,10 +302,10 @@ a:visited {
     background-color: #0f3f67;
     color: #fff;
 }
-#button li a:hover {
-    background-color: #2586d7;
+#button nav a:hover {
+    background-color: #b1e4a5;
     margin-top:-2px;
-    padding-bottom:12px;
+    padding-bottom:30px;
     }
 /* logos y texto redes*/
 .flotar{

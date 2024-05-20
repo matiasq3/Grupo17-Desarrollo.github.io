@@ -1,9 +1,12 @@
+
+
 .categoriasProd {
     display: grid;
     grid-template-columns:250px 250px 250px 250px;
     grid-gap: 30px;
     grid-auto-rows:minmax(100px;auto);
     padding: 20px;
+    height: auto;
     
 }
 
