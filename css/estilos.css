@@ -176,6 +176,10 @@ body {
 article {
     width: 100%;
 }
+.mapa{
+    width:80%;
+    background-color: #0f3f67;
+}
     
 /*section {
     display: flex;
@@ -304,9 +308,5 @@ a:visited {
 .redes{
     display:flex;
     margin-left: 3px;
-}
-.orden{
-    display: block;
-    padding-left: 15%;
-    padding-bottom: 3px;
+    
 }
