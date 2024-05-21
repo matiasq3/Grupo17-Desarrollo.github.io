@@ -1,0 +1,14 @@
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px; /* Espacio entre las columnas */
+}
+
+
+/*color*/
+.productos {
+    background-color: #6c9bb6; 
+    padding: 20px;
+}
