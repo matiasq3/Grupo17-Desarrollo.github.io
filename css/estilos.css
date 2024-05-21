@@ -87,7 +87,7 @@ h1 {
 
 /*producto de oferta*/
 .productos {
-    background-color: #2c3c97;
+    background-color: #85b9db;
     border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
@@ -299,7 +299,7 @@ a:visited {
     text-decoration:none;
     float:left;
     padding: 10px;
-    background-color: #0f3f67;
+    background-color: #447297;
     color: #fff;
 }
 #button nav a:hover {
