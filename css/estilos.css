@@ -181,7 +181,7 @@ body {
 }
   
 /* Estilos para pantallas grandes (computadoras) */
-@media (min-width: 1024px) {
+@media (min-width: 960px) {
     main {
     background-color: rgb(124, 191, 200);
 }
