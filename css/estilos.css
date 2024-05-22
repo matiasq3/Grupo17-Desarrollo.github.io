@@ -18,6 +18,7 @@ header {
     padding: 10px 0;
 }
 #button{
+   
     background-color: #535353;
     color: #fff;
     text-align: center;
@@ -121,14 +122,20 @@ li{
 
 /* Estilos para pantallas pequeñas (celulares) */
 @media (max-width: 600px) {
+
+    
+
     
 main {
     background-color: rgb(138, 186, 242);
+    float:none;
+    
 }
 
 article {
     width: 100%;
 }
+
     
 /*section {
     display: flex;
@@ -139,7 +146,7 @@ img {
 }
 
 body {
-    font-size: medium;
+    font-size: 80%;
 } 
 }
   
@@ -278,11 +285,12 @@ a:visited {
 }
 /* menu con estilo*/
 #button {
-    padding: 10px;
+   padding: 10px;
         
 }
 #button li {
-    display: inline;
+    display: inline-block;
+   
 }
 #button li a {
     font-family: 'Lucida Sans';
