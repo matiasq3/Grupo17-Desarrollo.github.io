@@ -87,7 +87,7 @@ h1 {
 
 /*producto de oferta*/
 .productos {
-    background-color: #85b9db;
+    background-color: #fff;
     border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
@@ -321,5 +321,6 @@ a:visited {
 .orden{
     display: block;
     padding-left: 15%;
-    padding-bottom: 3px;
+    padding-bottom: 10px;
+    gap: 10px;
 }
