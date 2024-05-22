@@ -1,0 +1,29 @@
+/*escalado de imagenes*/
+picture{
+    display:flex;
+    padding: 2%;
+}
+
+img{
+    width: 25%;
+    height: auto;
+}
+.imgArticulo{
+    justify-content: space-between;
+
+}
+/* FLEXBOX*/
+/*siempre trabaja en una dimension*/
+article{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid, 1px, black;
+    border-radius: 3%;
+    margin: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+    max-width: 95%;
+   
+    
+}
+

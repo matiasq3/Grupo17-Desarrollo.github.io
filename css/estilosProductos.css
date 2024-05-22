@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #9ccbda;
+
+}
+
+.CategoriasProductos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Tres columnas de igual tamaño */
+}
+
+.productos {
+    
+    background-color: #9ccbda;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+}
+
