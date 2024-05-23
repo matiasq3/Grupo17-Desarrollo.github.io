@@ -1,9 +1,21 @@
-.categoriasProd {
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #9ccbda;
+
+}
+
+.CategoriasProductos{
     display: grid;
-    grid-template-columns:250px 250px 250px 250px;
-    grid-gap: 30px;
-    grid-auto-rows:minmax(100px;auto);
-    padding: 20px;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+.productos {
     
+    background-color: #9ccbda;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
 }
 
