@@ -62,7 +62,10 @@ div footer {
   color: black;
   
 }
-  
+
+footer a{
+  color: blue;
+}
 
 
 footer {
