@@ -19,3 +19,8 @@ body{
     border-radius: 25px;
 }
 
+img {
+    display: block;
+    width: 40%;
+    margin: auto;
+  }
