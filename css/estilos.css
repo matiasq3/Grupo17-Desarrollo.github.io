@@ -95,7 +95,7 @@ h1 {
 }
         
 ul{
-    display: flex;
+    
     justify-content: space-around;
     font-weight: bold;
     color: rgb(4, 4, 4);
@@ -122,7 +122,7 @@ li{
 
 
 /* Estilos para pantallas pequeñas (celulares) */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
 
     
 
@@ -152,7 +152,7 @@ body {
 }
   
 /* Estilos para tablets */
-@media (min-width: 601px) and (max-width: 1023px) {
+@media (min-width: 300px) and (max-width: 480px) {
     main {
     background-color: rgb(199, 216, 247);
 }
