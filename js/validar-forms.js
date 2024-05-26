@@ -1,5 +1,3 @@
-// Validación de formulario
-console.log('Comienzo');
 
 // 2° validación
 function validarCampos() {
@@ -11,7 +9,7 @@ function validarCampos() {
     let edad = document.querySelector('#edad').value;
     let telefono = document.querySelector('#telefono').value;
 
-        //checkbox
+    //checkbox
     let checkbox1 = document.querySelector('#checkbox1').checked;
     let checkbox2 = document.querySelector('#checkbox2').checked;
     let checkbox3 = document.querySelector('#checkbox3').checked;
@@ -32,6 +30,7 @@ function validarCampos() {
     // mensajes 
     let msjError = 'Reingrese su: ';
 
+    //Condicionales
     if (nombre === '' || !soloPalabras.test(nombre)){
         name = false;
         datosValidos = false;
@@ -94,7 +93,6 @@ function validarCampos() {
     } else {
         mensaje.innerHTML = msjError
     }
-
 }
 
 // Capturo el formulario y escucha el evento
@@ -104,6 +102,3 @@ formulario.addEventListener('submit', evento => {
     validarCampos();
     evento.preventDefault();
 });
-
-
-console.log('Fin del algoritmo (?)');
