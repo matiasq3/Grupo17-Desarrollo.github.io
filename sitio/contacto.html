@@ -33,28 +33,27 @@
         <!--    <form action="../respuesta.html">-->
         <section>
             <fieldset class="alinear"> 
-                <form id="formNombreEdad">
-                    <div> 
-                        <legend class="datos">Complete el formulario de contacto: </legend> 
-                        <br>
-                        <label for="nombre">Nombres: </label> <br>
-                        <input type="text" name=" nombre" id= "nombre" size="50" required="True"placeholder=" Ingrese su nombre">
-                    </div>
+                <legend class="datos">Complete el formulario de contacto: </legend> 
+                <form id="formNombreEdad"> 
                     <div>
-                        <label for="apellido">Apellidos:    </label> <br>
-                        <input type="text" name="apellido" id= "apellido" size="50" required="True" placeholder=" Ingrese su apellido">                        
+                        <label for="nombre">Nombres: </label> <br>
+                        <input type="text" name=" nombre" id= "nombre" size="50" required placeholder=" Ingrese su nombre">
+                    </div><br>
+                    <div>
+                        <label for="apellido">Apellidos: </label> <br>
+                        <input type="text" name="apellido" id= "apellido" size="50" required placeholder=" Ingrese su apellido">                        
                     </div>
                     <div>
                         <label for="teléfono">Teléfono : </label><br>
-                        <input name="telefono" type="text" id="telefono" size="50" required="True" placeholder=" Ingrese su numero de teléfono">
+                        <input name="telefono" type="text" id="telefono" size="50" required placeholder=" Ingrese su numero de teléfono">
                     </div>
                     <div>
-                        <label for="edad"> Edad: <label> <br>
-                        <input name="edad" type="text" id="edad" size="50" required="True"  placeholder=" Ingrese su edad">
+                        <label for="edad"> Edad: </label> <br>
+                        <input name="edad" type="text" id="edad" size="50" required placeholder=" Ingrese su edad">
                     </div>
                     <div>
                         <label for="email">Correo electrónico:</label><br>
-                        <input name="email" type="email" id="email" size="50" required="True" placeholder="Ingrese su correo electrónico">
+                        <input name="email" type="email" id="email" size="50" required placeholder="Ingrese su correo electrónico">
                     </div>
                     <br>
                     
@@ -87,7 +86,7 @@
                    <!--Mensaje-->
                     <div class="input-container">
                         <label for="Mensaje">Mensaje:</label><br> 
-                        <input type="text" name="Mensaje" id="Mensaje" required="True" placeholder="">                        
+                        <input type="text" name="Mensaje" id="Mensaje" required placeholder="">  <!-- Required se pude usar sin el True-->                      
                     </div>
 
                     <br>
@@ -109,12 +108,11 @@
                 <article class="parrafo">
                     <div class="orden">
                         <p> Nuestas redes: </p><br><br><br><br>
-
-                        <p> <a href="https://www.instagram.com"><img class="flotar" src="../img/ig_preview_rev_1.png"></p>
+                        <p> <a href="https://www.instagram.com"><img class="flotar" src="../img/ig_preview_rev_1.png" alt="Instagram"></a></p>
                                                 
-                        <p> <a href="https://www.facebook.com"><img  class="flotar" src="../img/face_preview_rev_1.png"></p>
-                        <br>                                                        
-                        <p> <a href="https://www.x.com"><img class="flotar" src="../img/x_preview_rev_1.png"> </p>
+                        <p> <a href="https://www.facebook.com"><img class="flotar" src="../img/face_preview_rev_1.png" alt="facebook"></a></p>
+                                                                                
+                        <p> <a href="https://www.x.com"><img class="flotar" src="../img/x_preview_rev_1.png" alt="twitter"></a></p>
                     </div>
                 </article>
             </div>
