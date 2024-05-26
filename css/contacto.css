@@ -21,6 +21,16 @@
     padding: 2rem;
     margin: 1.5rem;
     text-align: center;
+    border-radius: 20px;
+    
+    
+  }
+
+  iframe{
+    border-color: rgb(124, 9, 9);
+    border-radius: 30px;
+    
+    
     
   }
   .alinear{
@@ -32,5 +42,6 @@
     padding-left: 5%;
     padding-bottom: 3px;
     font-size: large;
+    transition-duration: 10s;
   
 }
