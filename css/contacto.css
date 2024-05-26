@@ -6,11 +6,11 @@
 }
   
 #Mensaje {
-  margin: 10px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+margin: 10px;
+position: absolute;
+width: 350px;
+height: 100px;
+box-sizing: border-box;
 }
 .parrafo{
   font-family: Arial;
